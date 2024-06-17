@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Attendance">
+    <suite-files>
+        <suite-file path="Attendance/BookingAttendance.xml"/>
+        <suite-file path="Attendance/BookingEventLog.xml"/>
+        <suite-file path="Attendance/ClassAttendance.xml"/>
+        <suite-file path="Attendance/ClassCreditUsage.xml"/>
+        <suite-file path="Attendance/FirstVisits.xml"/>
+    </suite-files>
+</suite>

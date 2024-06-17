@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Membership">
+    <test name="Referred Members">
+        <classes>
+            <class name="tests.DefaultTest">
+                <parameter name="groupName" value="Membership"/>
+                <parameter name="reportName" value="Referred Members"/>
+                <parameter name="datePreset" value="Last Month"/>
+            </class>
+        </classes>
+    </test>
+</suite>

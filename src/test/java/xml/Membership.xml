@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Membership">
+    <suite-files>
+        <suite-file path="Membership/ActiveMembers.xml"/>
+        <suite-file path="Membership/CheckInExport.xml"/>
+        <suite-file path="Membership/LostMembers.xml"/>
+        <suite-file path="Membership/LostSheep/LostSheep.xml"/>
+        <suite-file path="Membership/MembersList.xml"/>
+        <suite-file path="Membership/NewMembers.xml"/>
+        <suite-file path="Membership/ReferredMembers.xml"/>
+    </suite-files>
+</suite>
